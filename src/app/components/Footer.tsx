@@ -6,9 +6,9 @@ export default function Footer() {
     const currentDate: Date = new Date();
     const year: number = currentDate.getFullYear()
     return (
-        <Box>
-            <Stack direction={"row"}>
-                <Text>
+        <Box margin={"auto"}>
+            <Stack direction={"row"} >
+                <Text textAlign={"center"}>
                     &copy; Anthony Micco {year}
                 </Text>
                 <Link _hover={{ color: "#36454F" }} href="https://github.com/Ajmicco18/portfolio-website-v2">
