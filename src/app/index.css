@@ -1,4 +1,4 @@
 body {
-  background-image: linear-gradient(to bottom, #36454F, #899499);
+  background-image: radial-gradient(#899499, #36454F);
   margin: 0;
 }
