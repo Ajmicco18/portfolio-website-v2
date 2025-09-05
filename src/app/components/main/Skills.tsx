@@ -1,5 +1,5 @@
 "use client"
-import { Box, Heading, Text, HStack, Link, IconButton } from "@chakra-ui/react"
+import { Box, Heading, Text, HStack } from "@chakra-ui/react"
 import {
     FaPython,
     FaJs,
