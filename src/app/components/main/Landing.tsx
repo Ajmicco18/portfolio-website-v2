@@ -12,17 +12,17 @@ export const Landing = () => {
                 <HStack gap={4} padding={3}>
                     <Link href={"https://github.com/Ajmicco18"} target="_blank" >
                         <IconButton bg={"#501DAF"} size={"xl"} _hover={{ transform: "scale(1.1)", transition: "0.2s" }} >
-                            <FaGithub fontSize={68} />
+                            <FaGithub size={30} />
                         </IconButton>
                     </Link>
                     <Link href={"https://www.linkedin.com/in/anthony-micco/"} target="_blank">
                         <IconButton bg={"#0a66c2"} size={"xl"} _hover={{ transform: "scale(1.1)", transition: "0.2s" }}>
-                            <FaLinkedin />
+                            <FaLinkedin size={30} />
                         </IconButton>
                     </Link>
                     <Link href={"mailto:anthonymicco2003@gmail.com"} target="_blank">
                         <IconButton bg={"white"} size={"xl"} _hover={{ transform: "scale(1.1)", transition: "0.2s" }}>
-                            <MdOutlineMailOutline color="black" />
+                            <MdOutlineMailOutline size={30} color="black" />
                         </IconButton>
                     </Link>
                 </HStack>
