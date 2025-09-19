@@ -1,3 +1,4 @@
+"use client";
 import { Box, HStack, Link } from "@chakra-ui/react"
 import {
     FaGithub,
@@ -41,7 +42,6 @@ export const SocialsIcons = () => {
                             contentProps={{ css: { "--tooltip-bg": icon.backgroundColor, "color": icon.color } }}
                         >
                             <Box
-                                key={index}
                                 bg={icon.backgroundColor}
                                 p={2}
                                 borderRadius={"md"}

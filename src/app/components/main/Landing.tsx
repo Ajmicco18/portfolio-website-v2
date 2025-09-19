@@ -1,5 +1,5 @@
 "use client"
-import { Box, Heading, HStack, Link, IconButton } from "@chakra-ui/react"
+import { Box, Heading } from "@chakra-ui/react"
 import { SocialsIcons } from "@/data/SocialsIcons"
 
 export const Landing = () => {

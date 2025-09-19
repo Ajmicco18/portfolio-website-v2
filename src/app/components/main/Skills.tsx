@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { Box, Heading, Text, HStack } from "@chakra-ui/react"
 import { languageIcons, softwareIcons, dataScienceIcons, devOpsIcons } from "@/data/skillsData";
 import { Tooltip } from "../tooltip";
@@ -14,10 +14,10 @@ export const Skills = () => {
                         <HStack flexWrap={"wrap"} justifyContent={"center"}>
                             {languageIcons(30, "white").map((iconObj, index) => (
                                 <Tooltip
+                                    key={index}
                                     content={iconObj.name}
                                     contentProps={{ css: { "--tooltip-bg": iconObj.backgroundColor } }}>
                                     <Box
-                                        key={index}
                                         p={3}
                                         bg={iconObj.backgroundColor}
                                         borderRadius={"md"}
@@ -33,10 +33,10 @@ export const Skills = () => {
                         <HStack flexWrap={"wrap"} justifyContent={"center"}>
                             {softwareIcons(30, "white").map((iconObj, index) => (
                                 <Tooltip
+                                    key={index}
                                     content={iconObj.name}
                                     contentProps={{ css: { "--tooltip-bg": iconObj.backgroundColor } }}>
                                     <Box
-                                        key={index}
                                         p={3}
                                         bg={iconObj.backgroundColor}
                                         borderRadius={"md"}
@@ -52,10 +52,10 @@ export const Skills = () => {
                         <HStack flexWrap={"wrap"} justifyContent={"center"}>
                             {dataScienceIcons(30, "white").map((iconObj, index) => (
                                 <Tooltip
+                                    key={index}
                                     content={iconObj.name}
                                     contentProps={{ css: { "--tooltip-bg": iconObj.backgroundColor } }}>
                                     <Box
-                                        key={index}
                                         p={3}
                                         bg={iconObj.backgroundColor}
                                         borderRadius={"md"}
@@ -71,10 +71,10 @@ export const Skills = () => {
                         <HStack flexWrap={"wrap"} justifyContent={"center"}>
                             {devOpsIcons(30, "white").map((iconObj, index) => (
                                 <Tooltip
+                                    key={index}
                                     content={iconObj.name}
                                     contentProps={{ css: { "--tooltip-bg": iconObj.backgroundColor } }}>
                                     <Box
-                                        key={index}
                                         p={3}
                                         bg={iconObj.backgroundColor}
                                         borderRadius={"md"}
