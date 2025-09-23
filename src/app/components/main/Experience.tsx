@@ -1,5 +1,5 @@
 "use client"
-import { Avatar, Box, Heading, Text, Timeline } from "@chakra-ui/react"
+import { Avatar, Box, Heading, Text, Timeline, Link } from "@chakra-ui/react"
 import { experience } from "@/data/experienceData"
 
 export const Experience = () => {
@@ -7,11 +7,10 @@ export const Experience = () => {
         <>
             <Box w={{ base: "100%", md: "80%" }} margin={"auto"} padding={8}>
                 <Heading size={"3xl"} fontSize={{ base: "32px", md: "48px" }} mb={8} color={"white"} padding={3} textDecoration={"underline"} textDecorationColor={"#2D42B9"}>Experience</Heading>
-                {experience().map((expObj, index) => (
-                    <Timeline.Root size={"xl"} key={index} maxW="100%">
+                <Timeline.Root size={"xl"} maxW="100%">
+                    {experience().map((expObj, index) => (
                         <Timeline.Item key={index} mt={8}>
                             <Timeline.Connector mr={8} color={"black"}>
-                                <Timeline.Separator />
                                 <Timeline.Indicator >
                                     <Avatar.Root size="2xl" mt={6}>
                                         <Avatar.Image src={expObj.image} />
@@ -21,15 +20,19 @@ export const Experience = () => {
                             </Timeline.Connector>
                             <Timeline.Content padding={4} bg={"#2D42B9"} borderRadius={3}>
                                 <Timeline.Title fontWeight={"bold"} fontSize={{ base: "16px", md: "20px" }} color={"white"}>{expObj.title}</Timeline.Title>
-                                <Timeline.Description fontWeight={"bold"} color={"lightgray"} fontSize={{ base: "12px", md: "16px" }}>{expObj.company}</Timeline.Description>
-                                <Text textStyle="md" color={"white"} >
-                                    {expObj.description}
-                                </Text>
+                                <Link href={expObj.url} fontWeight={"bold"} color={"lightgray"} fontSize={{ base: "12px", md: "16px" }} _hover={{ color: "white", textDecoration: "none" }} >
+                                    {expObj.company}
+                                </Link>
+                                {expObj.description.map((desc, index) => (
+                                    <Text key={index} textStyle="md" color={"white"} >
+                                        {desc}
+                                    </Text>
+                                ))}
                                 <Timeline.Description color={"lightgray"} fontSize={{ base: "12px", md: "16px" }}>{expObj.duration}</Timeline.Description>
                             </Timeline.Content>
                         </Timeline.Item>
-                    </Timeline.Root>
-                ))}
+                    ))}
+                </Timeline.Root>
             </Box>
         </>
     )
