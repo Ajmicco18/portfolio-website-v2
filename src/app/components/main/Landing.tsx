@@ -10,7 +10,7 @@ export const Landing = () => {
             <Box w={{ base: "100%", md: "80%" }} margin={"auto"} padding={8}>
                 <Heading size={"3xl"} fontSize="48px" color={"white"} padding={3}>Anthony Micco</Heading>
                 <Heading size={"xl"} fontSize={"36px"} padding={3}>Software Developer</Heading>
-                <HStack paddingTop={4} gap={4}>
+                <HStack paddingTop={4}>
                     {icons(36).map((icon, index) => (
                         <Tooltip
                             key={index}

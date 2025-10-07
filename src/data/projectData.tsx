@@ -1,4 +1,10 @@
-export const projects = () => [
+export type OtherProject = {
+    title: string;
+    description: string;
+    url: string;
+};
+
+export const projects = (): OtherProject[] => [
     {
         title: "Baseball Queries with RAG",
         description: "My capstone project utilizing Retrieval Augmented Generation (RAG) to answer baseball related queries.",
