@@ -11,7 +11,7 @@ export const ProjectCard = ({ project }: OtherProjectProps) => {
 
     return (
         <>
-            <Box borderRadius="10px" backgroundColor={"#2D42B9"} mt={2} width={"100%"} padding={2}>
+            <Box borderRadius={5} backgroundColor={"#2D42B9"} mt={2} width={"100%"} padding={2}>
                 <Text fontSize={{ base: "15px", md: "20px" }} fontWeight={"bold"} color={"white"}>
                     {project.title}
                 </Text>
