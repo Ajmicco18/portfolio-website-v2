@@ -4,8 +4,8 @@ import { Providers } from "./providers";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata: Metadata = {
-  title: "Anthony's Site",
-  description: "Anthony Micco's personal website",
+  title: "Anthony Micco",
+  description: "Anthony Micco's Portfolio",
   authors: [{ name: "Anthony Micco" }],
 };
 
