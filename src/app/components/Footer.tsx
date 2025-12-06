@@ -9,7 +9,7 @@ export default function Footer() {
         <Box margin={"auto"}>
             <Stack direction={"row"} >
                 <Text textAlign={"center"}>
-                    &copy; Anthony Micco {year}
+                    &copy; {year} Anthony Micco
                 </Text>
                 <Link _hover={{ color: "#2D42B9" }} href="https://github.com/Ajmicco18/portfolio-website-v2">
                     <FaCodeBranch />
