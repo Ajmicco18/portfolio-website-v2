@@ -1,10 +1,21 @@
 
 export const experience = () => [
     {
+        image: "images/vista-ast.png",
+        company: "Vista AST",
+        title: "Technology Intern",
+        duration: "January 2026-Present",
+        url: "https://www.vistaast.com/",
+        description: ["-",
+            "-",
+            "-",
+        ]
+    },
+    {
         image: "images/gasser.png",
         company: "Gasser Chair Co.",
         title: "Data Science Intern",
-        duration: "August 2025-Present",
+        duration: "August 2025-December 2025",
         url: "https://www.gasserchair.com/",
         description: ["-Use the Global Shop ERP to generate reports and dashboards by querying data using SQL",
             "-Update, remove and insert data into databases tables using SQL queries",
