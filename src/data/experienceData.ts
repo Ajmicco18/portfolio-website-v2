@@ -12,17 +12,6 @@ export const experience = () => [
         ]
     },
     {
-        image: "images/gasser.png",
-        company: "Gasser Chair Co.",
-        title: "Data Science Intern",
-        duration: "August 2025-December 2025",
-        url: "https://www.gasserchair.com/",
-        description: ["-Use the Global Shop ERP to generate reports and dashboards by querying data using SQL",
-            "-Update, remove and insert data into databases tables using SQL queries",
-            "-Utilize CRM and ERP softwares to assist the company make data driven business decisions",
-        ]
-    },
-    {
         image: "images/ysu.jpeg",
         company: "Youngstown State University",
         title: "Student Software Developer",
@@ -36,15 +25,29 @@ export const experience = () => [
     {
         image: "images/data-mine.png",
         company: "Youngstown State University Data Mine",
-        title: "Undergraduate Research",
+        title: "Data Science Research",
         duration: "January 2024-Present",
         url: "https://tdm.ysumathstat.org/",
-        description: ["-During the Spring 2025 semester, I collaborated with Travel Centers of America to analyze customer reviews to create actionable insights into what the company can do to improve the quality of their locations.",
+        description: ["-Worked with the Community Foundation of the Mahoning Valley to classify fund holder engagement and activity",
+            "-Developed RFM (recency, frequency, and monetary) model using Python to classify and calculate RFM score",
+            "-Assisted in the development of an Xcel tool to classify and calculate fund holder engagement and activity",
+            "-Collaborated with Travel Centers of America to analyze customer reviews to create actionable insights into what the company can do to improve the quality of their locations.",
             "-Contributed to the development of a digital dashboard application using Next.js, Python, FastAPI, and SQLite to visualize the performance of each TA location as well as their competitors.",
             "-Implemented a user authentication system with a login and registration screen to secure the dashboard and limit access.",
-            "-During the Spring 2024 semester, I collaborated with DriveOhio on investigating the causes of disengagements in autonomous vehicles in rural areas.",
+            "-Partnered with DriveOhio on investigating the causes of disengagements in autonomous vehicles in rural areas.",
             "-Worked with Amazon Work Spaces, JupyterLab, Python, and DynamoDB to analyze a large set of data and categorize why autonomous vehicles disengaged",
             "-Created maps using Python libraries to visualize and log where disengagements occurred."
+        ]
+    },
+    {
+        image: "images/gasser.png",
+        company: "Gasser Chair Co.",
+        title: "Data Science Intern",
+        duration: "August 2025-December 2025",
+        url: "https://www.gasserchair.com/",
+        description: ["-Use the Global Shop ERP to generate reports and dashboards by querying data using SQL",
+            "-Update, remove and insert data into databases tables using SQL queries",
+            "-Utilize CRM and ERP softwares to assist the company make data driven business decisions",
         ]
     },
     {
