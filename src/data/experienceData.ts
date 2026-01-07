@@ -25,7 +25,7 @@ export const experience = () => [
     {
         image: "images/data-mine.png",
         company: "Youngstown State University Data Mine",
-        title: "Data Science Research",
+        title: "Data Science Researcher",
         duration: "January 2024-Present",
         url: "https://tdm.ysumathstat.org/",
         description: ["-Worked with the Community Foundation of the Mahoning Valley to classify fund holder engagement and activity",
