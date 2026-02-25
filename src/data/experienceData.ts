@@ -6,9 +6,11 @@ export const experience = () => [
         title: "Technology Intern",
         duration: "January 2026-Present",
         url: "https://www.vistaast.com/",
-        description: ["-",
-            "-",
-            "-",
+        description: ["-Enhanced an educational nutrition application by modularizing the code into separate HTML, CSS and JavaScript files.",
+            "-Implemented responsive design features using CSS media queries and flexbox layout.",
+            "-Focused on improving user experience through dynamic content updates using JavaScript event listeners.",
+            "-Ensured data integrity across pages by storing and retrieving data using local storage.",
+            "-Collaborated on GitHub for effective project management and teamwork in a startup environment."
         ]
     },
     {
@@ -17,9 +19,9 @@ export const experience = () => [
         title: "Student Software Developer",
         duration: "January 2024-Present",
         url: "https://ysu.edu/",
-        description: ["-Made content changes to ysu.edu using technologies such as HTML, CSS and JavaScript",
-            "-Contributed to a small team that completed over 1000 tickets in 8 months",
-            "-Notified ticket issuers directly when their ticket requests were fulfilled"
+        description: ["-Executed content changes to ysu.edu utilizing HTML, CSS and JavaScript",
+            "-Contributed to a high-volume development team, successfully completing over 1000 web change requests for ysu.edu within an 8-month period.",
+            "-Streamlined client communication by notifying ticket issuers upon fulfillment, maintaining a high standard of service efficiency."
         ]
     },
     {
@@ -28,15 +30,11 @@ export const experience = () => [
         title: "Data Science Researcher",
         duration: "January 2024-Present",
         url: "https://tdm.ysumathstat.org/",
-        description: ["-Worked with the Community Foundation of the Mahoning Valley to classify fund holder engagement and activity",
-            "-Developed RFM (recency, frequency, and monetary) model using Python to classify and calculate RFM score",
-            "-Assisted in the development of an Xcel tool to classify and calculate fund holder engagement and activity",
-            "-Collaborated with Travel Centers of America to analyze customer reviews to create actionable insights into what the company can do to improve the quality of their locations.",
-            "-Contributed to the development of a digital dashboard application using Next.js, Python, FastAPI, and SQLite to visualize the performance of each TA location as well as their competitors.",
-            "-Implemented a user authentication system with a login and registration screen to secure the dashboard and limit access.",
-            "-Partnered with DriveOhio on investigating the causes of disengagements in autonomous vehicles in rural areas.",
-            "-Worked with Amazon Work Spaces, JupyterLab, Python, and DynamoDB to analyze a large set of data and categorize why autonomous vehicles disengaged",
-            "-Created maps using Python libraries to visualize and log where disengagements occurred."
+        description: ["-Collaborated with industry partners including DriveOhio, Travel Centers of America, and the Community Foundation of the Mahoning Valley to translate complex data into actionable business and technical solutions.",
+            "-Conducted in-depth analysis of massive datasets using Amazon WorkSpaces, DynamoDB, and Python to investigate the root causes of Autonomous Vehicle disengagements in rural areas, resulting in geospatial visualizations and categorization for executive review.",
+            "-Designed and implemented a full-stack dashboard using Next.js, Python, FastAPI, and SQLite, including a user authentication system (login/registration) to limit and secure access to proprietary business insights.",
+            "-Utilized Python and Jupyter Lab to develop an RFM (recency, frequency and monetary) model to classify and measure fund holder engagement.",
+            "-Integrated model into an Excel tool to calculate fund holder engagement and activity and visualize the calculated data."
         ]
     },
     {
@@ -45,9 +43,8 @@ export const experience = () => [
         title: "Data Science Intern",
         duration: "August 2025-December 2025",
         url: "https://www.gasserchair.com/",
-        description: ["-Use the Global Shop ERP to generate reports and dashboards by querying data using SQL",
-            "-Update, remove and insert data into databases tables using SQL queries",
-            "-Utilize CRM and ERP softwares to assist the company make data driven business decisions",
+        description: ["-Drove data-driven decision-making by developing and maintaining analytical reports and interactive dashboards within the Global Shop ERP system, providing sales and production teams with critical business intelligence.",
+            "-Focused on ensuring data integrity and accessibility by routinely updating, adding, and removing dataset records through complex SQL queries.",
         ]
     },
     {
@@ -56,9 +53,9 @@ export const experience = () => [
         title: "Technical Process Analyst Intern",
         duration: "May 2025-August 2025",
         url: "https://www.howmet.com/",
-        description: ["-Designed and developed applications using the Ignition SCADA software to digitize inspection forms completed on the shopfloor",
-            "-Implemented form components' behavior using Python scripts and accessed PLC data using SQL queries",
-            "-Modified flawed C# ASP.NET application using Visual Studio"]
+        description: ["-Transformed shop floor processes by designing and developing custom SCADA applications using Ignition, successfully digitizing manual inspection forms.",
+            "-Programmed complex component logic using Python scripts and integrated real-time PLC data via SQL queries to streamline data capture.",
+            "-Additionally, debugged and resolved critical errors within an existing C# ASP.NET application using Visual Studio. "]
     },
     {
         image: "images/tailored.png",
@@ -66,10 +63,11 @@ export const experience = () => [
         title: "Software Developer Intern",
         duration: "January 2024-April 2025",
         url: "https://www.tailoredalloys.com/",
-        description: ["-Contributed to development of manufacturing software recommendation tool in agile work environment",
-            "-Developed form component functionality and design (React, Python,  MySQL)  to allow users to input information about manufacturing softwares. Designed user authentication system (JavaScript, Firebase) to ensure the security of the application.  ",
-            "-Utilized Python's LangChain and LangGraph libraries to assist in the development of AI agent prompted to determine feasibility of using additive manufacturing.",
-            "-Actively participated in project planning and documented work using Jira’s Confluence project manager software ."
+        description: ["-Contributed as a full-stack developer within an agile environment to build a manufacturing software recommendation tool.",
+            "-Engineered the core form component functionality and design using React, Python, and MySQL, enabling users to efficiently input software parameters.",
+            "-Explored agentic AI workflows using Python's LangChain and LangGraph libraries.",
+            "-Secured the application by designing and implementing a robust user authentication system utilizing JavaScript and Firebase.",
+            "-Maintained project progress by actively participating in sprint planning and documenting technical progress in Jira/Confluence."
         ]
     },
     {
@@ -78,8 +76,8 @@ export const experience = () => [
         title: "Computer Technology Intern",
         duration: "January 2023-August 2023",
         url: "https://www.boardman.k12.oh.us/",
-        description: ["-Trained to repair broken Chromebook screens and document damages",
-            "-Assist faculty and staff resolve issues with the technology in their classrooms or offices",
+        description: ["-Repaired broken Chromebook screens and document damages",
+            "-Assisted faculty and staff resolve issues with the technology in their classrooms or offices",
             "-Updated and managed inventory of the district's devices",
             "-Configured CISCO access points and telephones across the district"]
     },
