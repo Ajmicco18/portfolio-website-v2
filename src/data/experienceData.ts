@@ -16,7 +16,7 @@ export const experience = () => [
     {
         image: "images/ysu.jpeg",
         company: "Youngstown State University",
-        title: "Student Software Developer",
+        title: "Student Web Developer",
         duration: "January 2024-Present",
         url: "https://ysu.edu/",
         description: ["-Executed content changes to ysu.edu utilizing HTML, CSS and JavaScript",
