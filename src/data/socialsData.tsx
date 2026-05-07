@@ -11,7 +11,7 @@ export const icons = (size: number) => [
         name: "GitHub",
         url: "https://github.com/Ajmicco18",
         backgroundColor: "#501DAF",
-        color: "white"
+        color: "white",
     },
     {
         icon: <FaLinkedin size={size} color={"white"} />,

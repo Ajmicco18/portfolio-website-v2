@@ -11,7 +11,7 @@ export default function Footer() {
                 <Text textAlign={"center"}>
                     &copy; {year} Anthony Micco
                 </Text>
-                <Link _hover={{ color: "#2D42B9" }} href="https://github.com/Ajmicco18/portfolio-website-v2">
+                <Link _hover={{ color: "#C80815" }} href="https://github.com/Ajmicco18/portfolio-website-v2">
                     <FaCodeBranch />
                 </Link>
             </Stack>

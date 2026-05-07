@@ -5,13 +5,12 @@ import {
     FaHtml5,
     FaJava,
     FaReact,
-    FaGithub
+    FaGithub,
 } from "react-icons/fa";
 
 import {
     SiMysql,
     SiSqlite,
-    SiTableau,
     SiCplusplus,
     SiJupyter,
     SiDjango,
@@ -105,11 +104,6 @@ export const dataScienceIcons = (size: number, color: string) => [
         icon: <SiR size={size} color={color} />,
         name: "R",
         backgroundColor: "#BFC2C5",
-    },
-    {
-        icon: <SiTableau size={size} color={color} />,
-        name: "Tableau",
-        backgroundColor: "#032D60",
     },
     {
         icon: <SiJupyter size={size} color={color} />,
