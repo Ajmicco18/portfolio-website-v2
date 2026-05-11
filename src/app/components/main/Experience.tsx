@@ -13,7 +13,7 @@ export const Experience = () => {
                             <Timeline.Connector mr={4} color={"black"}>
                                 <TimelineSeparator />
                                 <Timeline.Indicator >
-                                    <Avatar.Root size="2xl">
+                                    <Avatar.Root size="2xl" bg={"white"}>
                                         <Avatar.Image src={expObj.image} />
                                         <Avatar.Fallback name={expObj.company} />
                                     </Avatar.Root>
