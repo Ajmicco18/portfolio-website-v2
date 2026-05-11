@@ -16,7 +16,7 @@ export const Skills = () => {
                                 <Tooltip
                                     key={index}
                                     content={iconObj.name}
-                                    contentProps={{ css: { "--tooltip-bg": iconObj.backgroundColor }, color: "white", fontWeight: "bold" }}>
+                                    contentProps={{ css: { "--tooltip-bg": iconObj.backgroundColor }, color: "white" }}>
                                     <Box
                                         p={3}
                                         bg={iconObj.backgroundColor}
