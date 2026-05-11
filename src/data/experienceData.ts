@@ -28,7 +28,7 @@ export const experience = () => [
         image: "images/data-mine.png",
         company: "Youngstown State University Data Mine",
         title: "Data Science Researcher",
-        duration: "January 2024-Present",
+        duration: "January 2024-April 2026",
         url: "https://tdm.ysumathstat.org/",
         description: ["-Collaborated with industry partners including DriveOhio, Travel Centers of America, and the Community Foundation of the Mahoning Valley to translate complex data into actionable business and technical solutions.",
             "-Conducted in-depth analysis of massive datasets using Amazon WorkSpaces, DynamoDB, and Python to investigate the root causes of Autonomous Vehicle disengagements in rural areas, resulting in geospatial visualizations and categorization for executive review.",

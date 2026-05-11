@@ -5,7 +5,7 @@ import { experience } from "@/data/experienceData"
 export const Experience = () => {
     return (
         <>
-            <Box w={{ base: "100%", md: "80%" }} margin={"auto"} padding={8}>
+            <Box w={{ base: "100%", md: "85%" }} margin={"auto"} padding={8}>
                 <Heading size={"3xl"} fontSize={{ base: "32px", md: "48px" }} mb={8} color={"white"} padding={3} textDecoration={"underline"} textDecorationColor={"#C80815"}>Experience</Heading>
                 <Timeline.Root size={"xl"} maxW="100%">
                     {experience().map((expObj, index) => (
@@ -20,7 +20,7 @@ export const Experience = () => {
                                 </Timeline.Indicator>
                             </Timeline.Connector>
                             <Timeline.Content padding={4} mb={4} bg={"#C80815"} borderRadius={3}>
-                                <Timeline.Title fontWeight={"bold"} fontSize={{ base: "16px", md: "20px" }} color={"black"}>{expObj.title}</Timeline.Title>
+                                <Timeline.Title fontFamily={"orbitron"} fontWeight={"bold"} fontSize={{ base: "16px", md: "20px" }} color={"black"}>{expObj.title}</Timeline.Title>
                                 <Link href={expObj.url} fontWeight={"bold"} color={"lightgray"} fontSize={{ base: "12px", md: "16px" }} _hover={{ color: "white", textDecoration: "none" }} >
                                     {expObj.company}
                                 </Link>

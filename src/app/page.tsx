@@ -4,11 +4,11 @@ import { Landing } from "./components/main/Landing";
 import { AboutMe } from "./components/main/AboutMe";
 import { Skills } from "./components/main/Skills";
 import { Experience } from "./components/main/Experience";
-import { Container, Box } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 
 export default function Home() {
   return (
-    <Container display={"flex"} flexDirection={"column"} margin={"auto"} width={"100%"}>
+    <Box display={"flex"} flexDirection={"column"} margin={"auto"} width={"100%"}>
       <Header />
       <Box width={"100%"}>
         <Landing />
@@ -23,6 +23,6 @@ export default function Home() {
         <Experience />
       </Box>
       <Footer />
-    </Container>
+    </Box>
   );
 }

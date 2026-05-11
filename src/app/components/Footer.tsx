@@ -1,5 +1,5 @@
 "use client"
-import { Box, Link, Text, Stack } from "@chakra-ui/react";
+import { Box, Link, Heading, Stack } from "@chakra-ui/react";
 import { FaCodeBranch } from "react-icons/fa6";
 
 export default function Footer() {
@@ -8,9 +8,9 @@ export default function Footer() {
     return (
         <Box margin={"auto"}>
             <Stack direction={"row"} >
-                <Text textAlign={"center"}>
+                <Heading size={"md"} textAlign={"center"}>
                     &copy; {year} Anthony Micco
-                </Text>
+                </Heading>
                 <Link _hover={{ color: "#C80815" }} href="https://github.com/Ajmicco18/portfolio-website-v2">
                     <FaCodeBranch />
                 </Link>

@@ -1,5 +1,5 @@
 "use client"
-import { Box, Link, Text } from "@chakra-ui/react"
+import { Box, Link, Text, Heading } from "@chakra-ui/react"
 import { FaGithub } from "react-icons/fa"
 import { OtherProject } from "@/data/projectData";
 
@@ -12,9 +12,9 @@ export const ProjectCard = ({ project }: OtherProjectProps) => {
     return (
         <>
             <Box borderRadius={5} backgroundColor={"#C80815"} mt={2} width={"100%"} padding={2}>
-                <Text fontSize={{ base: "15px", md: "20px" }} fontWeight={"bold"} color={"black"}>
+                <Heading fontSize={{ base: "15px", md: "20px" }} fontWeight={"bold"} color={"black"}>
                     {project.title}
-                </Text>
+                </Heading>
                 <Text fontSize={{ base: "12px", md: "15px" }} color={"lightgray"}>
                     {project.description}
                 </Text>

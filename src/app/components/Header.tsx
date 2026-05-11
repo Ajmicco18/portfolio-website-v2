@@ -15,13 +15,21 @@ export default function Header() {
             <Box
                 as="nav"
                 w="100%"
+                position={"sticky"}
+                top={0}
+                zIndex={1000}
+                bg="rgba(50, 51, 51, 0.85)"
+                backdropFilter="blur(10px)"
+                borderBottom="1px solid rgba(255, 255, 255, 0.1)"
             >
                 <Flex
-                    minWidth="max-content"
                     alignItems="center"
                     flexDirection="row"
-                    justifyContent={"space-around"}
-                    py={8}
+                    w={"100%"}
+                    margin={"auto"}
+                    justifyContent={"space-between"}
+                    px={{ "base": 4, "md": 8 }}
+                    py={4}
                 >
                     <Box>
                         <Heading size="lg">
@@ -33,17 +41,21 @@ export default function Header() {
                         </Heading>
                     </Box>
 
-                    <ButtonGroup gap={2}>
-                        <Link href={"/Projects"}>
-                            <Box>
-                                <Text color={"white"} _hover={{ textDecoration: "underline", textDecorationColor: "#C80815" }}>/Projects</Text>
-                            </Box>
-                        </Link>
-                        <Link href={"anthony_micco_resume.pdf"} target="__blank">
-                            <Box>
-                                <Text color={"white"} _hover={{ textDecoration: "underline", textDecorationColor: "#C80815" }}>/Resume</Text>
-                            </Box>
-                        </Link>
+                    <ButtonGroup gap={6}>
+                        <Heading size={"md"}>
+                            <Link href={"/Projects"}>
+                                <Box>
+                                    <Text color={"white"} _hover={{ textDecoration: "underline", textDecorationColor: "#C80815" }}>/Projects</Text>
+                                </Box>
+                            </Link>
+                        </Heading>
+                        <Heading size={"md"}>
+                            <Link href={"anthony_micco_resume.pdf"} target="__blank">
+                                <Box>
+                                    <Text color={"white"} _hover={{ textDecoration: "underline", textDecorationColor: "#C80815" }}>/Resume</Text>
+                                </Box>
+                            </Link>
+                        </Heading>
                     </ButtonGroup>
                 </Flex>
             </Box>

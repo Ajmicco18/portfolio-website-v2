@@ -2,15 +2,15 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { ProjectCard } from "../components/projects/ProjectCard";
 import { projects } from "@/data/projectData";
-import { Box, Container, Heading, Text, SimpleGrid, Image } from "@chakra-ui/react";
+import { Box, Heading, Text, SimpleGrid, Image } from "@chakra-ui/react";
 
 export default function Projects() {
     return (
         <>
-            <Container display={"flex"} flexDirection={"column"} margin={"auto"} width={"100%"}>
+            <Box display={"flex"} flexDirection={"column"} margin={"auto"} width={"100%"}>
                 <Header />
                 <Box width={"100%"}>
-                    <Box w={{ base: "100%", md: "80%" }} margin={"auto"} padding={8}>
+                    <Box w={{ base: "100%", md: "85%" }} margin={"auto"} padding={8}>
                         <Heading size={"xl"} fontSize={{ base: "32px", md: "48px" }} textAlign={"center"} mb={8} color={"white"} padding={3} textDecoration={"underline"} textDecorationColor={"#C80815"}>Featured Project</Heading>
                         <Box display={"flex"} flexDirection={{ base: "column", md: "row" }} width={"100%"}>
                             <Box width={{ base: "100%", md: "45%" }} margin={"auto"} mb={8}>
@@ -29,7 +29,7 @@ export default function Projects() {
                         <Heading size={"xl"} fontSize={{ base: "32px", md: "48px" }} textAlign={"center"} mt={16} mb={8} color={"white"} padding={3} textDecoration={"underline"} textDecorationColor={"#C80815"}>Other Projects</Heading>
                         <SimpleGrid
                             columns={{ base: 1, md: 2 }}
-                            gap={2}
+                            gap={4}
                             mt={5}
                         >
                             {projects().map((project, index) => (
@@ -39,7 +39,7 @@ export default function Projects() {
                     </Box>
                 </Box>
                 <Footer />
-            </Container>
+            </Box>
 
         </>
     )
