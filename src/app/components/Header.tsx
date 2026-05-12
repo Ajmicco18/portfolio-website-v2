@@ -25,7 +25,7 @@ export default function Header() {
                 <Flex
                     alignItems="center"
                     flexDirection="row"
-                    w={"100%"}
+                    w={"90%"}
                     margin={"auto"}
                     justifyContent={"space-between"}
                     px={{ "base": 4, "md": 8 }}
