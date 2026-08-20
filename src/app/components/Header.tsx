@@ -50,7 +50,7 @@ export default function Header() {
                             </Link>
                         </Heading>
                         <Heading size={"md"}>
-                            <Link href={"anthony_micco_resume.pdf"} target="__blank">
+                            <Link href={"anthony-micco-resume.pdf"} target="__blank">
                                 <Box>
                                     <Text color={"white"} _hover={{ textDecoration: "underline", textDecorationColor: "#C80815" }}>/Resume</Text>
                                 </Box>

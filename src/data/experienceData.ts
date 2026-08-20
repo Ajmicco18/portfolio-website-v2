@@ -1,16 +1,14 @@
 
 export const experience = () => [
     {
-        image: "images/vista-ast.png",
-        company: "Vista AST",
-        title: "Technology Intern",
-        duration: "January 2026-Present",
-        url: "https://www.vistaast.com/",
-        description: ["-Enhanced an educational nutrition application by modularizing the code into separate HTML, CSS and JavaScript files.",
-            "-Implemented responsive design features using CSS media queries and flexbox layout.",
-            "-Focused on improving user experience through dynamic content updates using JavaScript event listeners.",
-            "-Ensured data integrity across pages by storing and retrieving data using local storage.",
-            "-Collaborated on GitHub for effective project management and teamwork in a startup environment."
+        image: "images/pantherx-rare-logo.png",
+        company: "PANTHERx Rare",
+        title: "Data Science Intern",
+        duration: "June 2026-Present",
+        url: "https://pantherxrare.com/",
+        description: ["-Enhanced existing fax summary LLM pipeline by developing containerized patient lookup service.",
+            "-Achieved 95\% precision when classifying patients using a formulated confidence score.",
+            "-Improved patient name accuracy on fax summary document using patient query to Databricks EDW"
         ]
     },
     {
@@ -22,6 +20,19 @@ export const experience = () => [
         description: ["-Executed content changes to ysu.edu utilizing HTML, CSS and JavaScript",
             "-Contributed to a high-volume development team, successfully completing over 1000 web change requests for ysu.edu within an 8-month period.",
             "-Streamlined client communication by notifying ticket issuers upon fulfillment, maintaining a high standard of service efficiency."
+        ]
+    },
+    {
+        image: "images/vista-ast.png",
+        company: "Vista AST",
+        title: "Technology Intern",
+        duration: "January 2026-May 2026",
+        url: "https://www.vistaast.com/",
+        description: ["-Enhanced an educational nutrition application by modularizing the code into separate HTML, CSS and JavaScript files.",
+            "-Implemented responsive design features using CSS media queries and flexbox layout.",
+            "-Focused on improving user experience through dynamic content updates using JavaScript event listeners.",
+            "-Ensured data integrity across pages by storing and retrieving data using local storage.",
+            "-Collaborated on GitHub for effective project management and teamwork in a startup environment."
         ]
     },
     {
