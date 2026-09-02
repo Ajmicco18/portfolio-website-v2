@@ -3,7 +3,6 @@ import {
     FaJs,
     FaCss3Alt,
     FaHtml5,
-    FaJava,
     FaReact,
     FaGithub,
 } from "react-icons/fa";
@@ -11,43 +10,39 @@ import {
 import {
     SiMysql,
     SiSqlite,
-    SiCplusplus,
     SiJupyter,
     SiDjango,
     SiFastapi,
     SiVite,
     SiNextdotjs,
     SiJira,
-    SiR
+    SiDocker,
+    SiPytorch,
+    SiPandas,
+    SiNumpy,
+    SiScikitlearn,
+    SiDatabricks,
+    SiTypescript,
+    SiMongodb
 } from "react-icons/si";
 
 import {
-    BiLogoVisualStudio,
-    BiLogoMicrosoftTeams
+    BiLogoVisualStudio
 } from "react-icons/bi";
 
-import { VscAzureDevops } from "react-icons/vsc";
+import { VscAzureDevops, VscAzure } from "react-icons/vsc";
 
-export const languageIcons = (size: number, color: string) => [
-    {
-        icon: <SiCplusplus size={size} color={color} />,
-        name: "C++",
-        backgroundColor: "#3178C6",
-    },
-    {
-        icon: <FaJava size={size} color={color} />,
-        name: "Java",
-        backgroundColor: "#007396",
-    },
-    {
-        icon: <FaPython size={size} color={color} />,
-        name: "Python",
-        backgroundColor: "#3776AB",
-    },
+export const frontendIcons = (size: number, color: string) => [
+
     {
         icon: <FaJs size={size} color={color} />,
         name: "JavaScript",
         backgroundColor: "#F0DB4F",
+    },
+    {
+        icon: <SiTypescript size={size} color={color} />,
+        name: "TypeScript",
+        backgroundColor: "#3178C6",
     },
     {
         icon: <FaHtml5 size={size} color={color} />,
@@ -59,9 +54,6 @@ export const languageIcons = (size: number, color: string) => [
         name: "CSS3",
         backgroundColor: "#1572B6",
     },
-];
-
-export const softwareIcons = (size: number, color: string) => [
     {
         icon: <FaReact size={size} color={color} />,
         name: "React",
@@ -76,6 +68,14 @@ export const softwareIcons = (size: number, color: string) => [
         icon: <SiVite size={size} color={color} />,
         name: "Vite",
         backgroundColor: "#41D1FF",
+    }
+];
+
+export const backendIcons = (size: number, color: string) => [
+    {
+        icon: <FaPython size={size} color={color} />,
+        name: "Python",
+        backgroundColor: "#3776AB",
     },
     {
         icon: <SiDjango size={size} color={color} />,
@@ -87,9 +87,11 @@ export const softwareIcons = (size: number, color: string) => [
         name: "FastAPI",
         backgroundColor: "#00ccb8",
     },
-];
-
-export const dataScienceIcons = (size: number, color: string) => [
+    {
+        icon: <SiMongodb size={size} color={color} />,
+        name: "MongoDB",
+        backgroundColor: "#00ED64",
+    },
     {
         icon: <SiMysql size={size} color={color} />,
         name: "MySQL",
@@ -100,23 +102,52 @@ export const dataScienceIcons = (size: number, color: string) => [
         name: "SQLite",
         backgroundColor: "#0F80CC",
     },
+];
+
+export const dataScienceIcons = (size: number, color: string) => [
     {
-        icon: <SiR size={size} color={color} />,
-        name: "R",
-        backgroundColor: "#BFC2C5",
+        icon: <SiPandas size={size} color={color} />,
+        name: "Pandas",
+        backgroundColor: "#150458",
     },
+    {
+        icon: <SiPytorch size={size} color={color} />,
+        name: "PyTorch",
+        backgroundColor: "#EE4C2C",
+    },
+    {
+        icon: <SiScikitlearn size={size} color={color} />,
+        name: "Scikit Learn",
+        backgroundColor: "#29ABE2",
+    },
+    {
+        icon: <SiNumpy size={size} color={color} />,
+        name: "NumPy",
+        backgroundColor: "#4D77CF",
+    },
+
     {
         icon: <SiJupyter size={size} color={color} />,
         name: "Jupyter Lab",
         backgroundColor: "#F37626",
     },
+    {
+        icon: <SiDatabricks size={size} color={color} />,
+        name: "Databricks",
+        backgroundColor: "#FF3621",
+    }
 ];
 
 export const devOpsIcons = (size: number, color: string) => [
     {
-        icon: <BiLogoVisualStudio size={size} color={color} />,
-        name: "Visual Studio Code",
-        backgroundColor: "#0098FF",
+        icon: <VscAzure size={size} color={color} />,
+        name: "Azure Cloud",
+        backgroundColor: "#0078D4",
+    },
+    {
+        icon: <SiDocker size={size} color={color} />,
+        name: "Docker",
+        backgroundColor: "#1D63ED",
     },
     {
         icon: <FaGithub size={size} color={color} />,
@@ -126,7 +157,7 @@ export const devOpsIcons = (size: number, color: string) => [
     {
         icon: <VscAzureDevops size={size} color={color} />,
         name: "Azure DevOps",
-        backgroundColor: "#D83B16",
+        backgroundColor: "#00AEEF",
     },
     {
         icon: <SiJira size={size} color={color} />,
@@ -134,8 +165,8 @@ export const devOpsIcons = (size: number, color: string) => [
         backgroundColor: "#96999E",
     },
     {
-        icon: <BiLogoMicrosoftTeams size={size} color={color} />,
-        name: "Microsoft Teams",
-        backgroundColor: "#505AC9",
+        icon: <BiLogoVisualStudio size={size} color={color} />,
+        name: "Visual Studio Code",
+        backgroundColor: "#0098FF",
     },
 ];

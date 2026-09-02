@@ -1,6 +1,6 @@
 "use client";
 import { Box, Heading, Text, HStack } from "@chakra-ui/react"
-import { languageIcons, softwareIcons, dataScienceIcons, devOpsIcons } from "@/data/skillsData";
+import { frontendIcons, backendIcons, dataScienceIcons, devOpsIcons } from "@/data/skillsData";
 import { Tooltip } from "../tooltip";
 
 export const Skills = () => {
@@ -10,9 +10,9 @@ export const Skills = () => {
                 <Heading size={"3xl"} fontSize={{ base: "32px", md: "48px" }} color={"white"} padding={3} textDecoration={"underline"} textDecorationColor={"#C80815"}>Skills</Heading>
                 <Box display={"flex"} margin={"auto"} flexDirection={{ base: "column", md: "row" }} w={"100%"} flexWrap={"wrap"} textAlign={"center"} justifyContent={"center"} alignItems={"center"}>
                     <Box width={{ base: "100%", md: "45%" }} p={2} margin={"auto"}>
-                        <Heading fontSize={{ base: "20px", md: "28px" }} fontWeight={"bold"} color={"black"} >Languages</Heading>
+                        <Heading fontSize={{ base: "20px", md: "28px" }} fontWeight={"bold"} color={"black"} >Frontend Development</Heading>
                         <HStack mt={5} flexWrap={"wrap"} justifyContent={"center"}>
-                            {languageIcons(30, "white").map((iconObj, index) => (
+                            {frontendIcons(30, "white").map((iconObj, index) => (
                                 <Tooltip
                                     key={index}
                                     content={iconObj.name}
@@ -29,9 +29,9 @@ export const Skills = () => {
                         </HStack>
                     </Box>
                     <Box width={{ base: "100%", md: "45%" }} p={2} margin={"auto"}>
-                        <Heading fontSize={{ base: "20px", md: "28px" }} fontWeight={"bold"} color={"black"} >Software Development</Heading>
+                        <Heading fontSize={{ base: "20px", md: "28px" }} fontWeight={"bold"} color={"black"} >Backend Development</Heading>
                         <HStack mt={5} flexWrap={"wrap"} justifyContent={"center"}>
-                            {softwareIcons(30, "white").map((iconObj, index) => (
+                            {backendIcons(30, "white").map((iconObj, index) => (
                                 <Tooltip
                                     key={index}
                                     content={iconObj.name}
@@ -48,7 +48,7 @@ export const Skills = () => {
                         </HStack>
                     </Box>
                     <Box width={{ base: "100%", md: "45%" }} p={2} margin={"auto"} my={4}>
-                        <Heading fontSize={{ base: "20px", md: "28px" }} fontWeight={"bold"} color={"black"} >Data Science</Heading>
+                        <Heading fontSize={{ base: "20px", md: "28px" }} fontWeight={"bold"} color={"black"} >Data Science & ML</Heading>
                         <HStack mt={5} flexWrap={"wrap"} justifyContent={"center"}>
                             {dataScienceIcons(30, "white").map((iconObj, index) => (
                                 <Tooltip
@@ -67,7 +67,7 @@ export const Skills = () => {
                         </HStack>
                     </Box>
                     <Box width={{ base: "100%", md: "45%" }} p={2} margin={"auto"} my={4}>
-                        <Heading fontSize={{ base: "20px", md: "28px" }} fontWeight={"bold"} color={"black"} >Version Control/DevOps</Heading>
+                        <Heading fontSize={{ base: "20px", md: "28px" }} fontWeight={"bold"} color={"black"} >Cloud & DevOps</Heading>
                         <HStack mt={5} flexWrap={"wrap"} justifyContent={"center"}>
                             {devOpsIcons(30, "white").map((iconObj, index) => (
                                 <Tooltip
