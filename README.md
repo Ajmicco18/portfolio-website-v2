@@ -18,3 +18,14 @@ To run my website locally, follow these steps:
 
 To view my website on the web, simply go to [https://www.ajmicco.dev/](https://www.ajmicco.dev/)
 
+## Docker
+
+Build and run the production image locally:
+
+```shell
+docker build -t portfolio-website .
+docker run --rm -p 3000:3000 portfolio-website
+```
+
+The container listens on port `3000`. Push the image to Amazon ECR, then configure an ECS task definition to use that image and map container port `3000` to the load balancer or service port.
+
